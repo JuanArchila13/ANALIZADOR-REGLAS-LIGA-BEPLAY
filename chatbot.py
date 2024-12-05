@@ -4,8 +4,7 @@ import pickle
 import numpy as np
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
-
-
+from fastapi.middleware.cors import CORSMiddleware
 import nltk
 from nltk.stem import WordNetLemmatizer
 
@@ -70,6 +69,18 @@ def respuesta(message):
     return res.encode('utf-8').decode('utf-8')
 
 app = FastAPI()
+
+origins = [
+    "http://localhost:3000"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/question")
 async def get_question(question: str = Query(..., description="La pregunta que deseas responder")):
