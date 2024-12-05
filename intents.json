@@ -1,0 +1,1103 @@
+{
+    "intents": [
+            {
+                "tag": "saludo",
+                "patterns": [
+                    "hola",
+                    "qué tal",
+                    "cómo estás",
+                    "saludos",
+                    "buenos días",
+                    "buenas tardes",
+                    "buenas noches",
+                    "hey",
+                    "hola, ¿qué haces?",
+                    "hola, ¿cómo te va?"
+                ],
+                "responses": [
+                    "¡Hola! ¿Cómo te encuentras hoy?",
+                    "Buenos días, ¿en qué puedo ayudarte?",
+                    "¡Hey! ¿Qué tal todo?",
+                    "Hola, ¿cómo va tu día?",
+                    "¡Saludos! ¿Qué necesitas?"
+                ]
+            },
+            {
+                "tag": "despedida",
+                "patterns": [
+                    "adiós",
+                    "hasta luego",
+                    "nos vemos",
+                    "cuídate",
+                    "chao",
+                    "bye",
+                    "me voy",
+                    "hasta pronto",
+                    "hasta la próxima"
+                ],
+                "responses": [
+                    "¡Hasta luego! Cuídate.",
+                    "Adiós, ¡que tengas un buen día!",
+                    "Nos vemos pronto.",
+                    "¡Chao! Aquí estaré si me necesitas.",
+                    "¡Hasta la próxima!"
+                ]
+            },
+            {
+                "tag": "articulo_consulta",
+                "patterns": [
+                    "artículo se encuentra",
+                    "donde está regulado",
+                    "artículo sobre",
+                    "artículo menciona",
+                    "dónde menciona"
+                ],
+                "responses": [
+                    "Lo siento, no estoy en capacidad de responder preguntas específicas sobre los artículos del reglamento.",
+                    "Actualmente no puedo identificar el artículo exacto para esa regla. Sin embargo, puedo proporcionarte información general.",
+                    "No puedo indicarte el artículo exacto, pero dime más detalles y trataré de ayudarte.",
+                    "Por ahora, no puedo localizar artículos específicos, pero puedo responder otras preguntas."
+                ]
+            },
+            {
+                "tag": "normas_aplicables",
+                "patterns": [
+                    "normas aplicables a la competencia",
+                    "reglamento LIGA BETPLAY DIMAYOR II 2024",
+                    "reglas aplicables",
+                    "reglamentación aplica"
+                ],
+                "responses": [
+                    "La LIGA BETPLAY DIMAYOR II 2024 se regirá por el reglamento oficial, los estatutos de la DIMAYOR, el Código Disciplinario Único de la FCF, el Estatuto del Jugador de la FCF, el Reglamento Sobre el Estatuto y la Transferencia de Jugadores de la FIFA, el Reglamento de Control al Dopaje de la FCF, las Reglas de Juego de la International Football Association Board (IFAB), la circular de inscripciones correspondiente, y otras reglamentaciones emitidas por DIMAYOR y autoridades nacionales e internacionales."
+                ]
+            },
+            {
+                "tag": "organos_direccion",
+                "patterns": [
+                    "órganos de dirección DIMAYOR",
+                    "administra la LIGA BETPLAY DIMAYOR II 2024",
+                    "autoridad en la DIMAYOR",
+                    "disciplina en la competencia"
+                ],
+                "responses": [
+                    "Los jugadores, clubes afiliados y oficiales que intervengan en la competencia estarán subordinados a los organismos de dirección, administración y disciplina de la DIMAYOR."
+                ]
+            },
+            {
+                "tag": "actividad_arbitral",
+                "patterns": [
+                    "actividad arbitral",
+                    "quién encarga árbitros"
+                ],
+                "responses": [
+                    "La actividad arbitral estará a cargo de la Comisión Arbitral Nacional de la Federación Colombiana de Fútbol (FCF)."
+                ]
+            },
+            {
+                "tag": "sistema_de_puntuacion",
+                "patterns": [
+                    "sistema de puntuación",
+                    "puntos otorgan partido ganado",
+                    "partidos empatados",
+                    "calculan puntos"
+                ],
+                "responses": [
+                    "En la LIGA BETPLAY DIMAYOR II 2024, se adjudican 3 puntos por partido ganado, 1 punto por partido empatado, y 0 puntos por partido perdido."
+                ]
+            },
+            {
+                "tag": "participantes",
+                "patterns": [
+                    "equipos participan en la Liga BetPlay",
+                    "clubes en la competencia",
+                    "participantes de la liga"
+                ],
+                "responses": [
+                    "La LIGA BETPLAY DIMAYOR II 2024 se realizará con la participación de 20 clubes afiliados."
+                ]
+            },
+            {
+                "tag": "estructura_de_la_competencia",
+                "patterns": [
+                    "organizada la competencia",
+                    "las fases de la Liga BetPlay",
+                    "formato tiene la liga",
+                    "funciona la liga"
+                ],
+                "responses": [
+                    "La LIGA BETPLAY DIMAYOR II 2024 tiene tres fases principales: Fase 1 (Todos contra todos, 19 fechas), Fase II (Cuadrangulares semifinales) y Fase III (Final)."
+                ]
+            },
+            {
+                "tag": "fase_todos_contra_todos",
+                "patterns": [
+                    "fase todos contra todos",
+                    "fase 1",
+                    "primera fase"
+                ],
+                "responses": [
+                    "La Fase I de la LIGA BETPLAY DIMAYOR II 2024 se jugará bajo el sistema de 'todos contra todos' en 19 fechas. \nEl fixture será el mismo que el del primer semestre, invirtiendo las localías"
+                ]
+            },
+            {
+                "tag": "tabla_de_posiciones",
+                "patterns": [
+                    "tabla de posiciones",
+                    "clasifican a los cuadrangulares"
+                ],
+                "responses": [
+                    "Al final de la Fase I, se realizará una sumatoria de los puntos obtenidos para crear la tabla de posiciones del puesto 1 al 20. \nLos clubes que ocupen los 8 primeros lugares al final de la Fase I serán los clasificados a los cuadrangulares semifinales"
+                ]
+            },
+            {
+                "tag": "criterios_de_desempate",
+                "patterns": [
+                    "empate en tabla de posiciones",
+                    "empate en puntos",
+                    "desempate en la Liga BetPlay"
+                ],
+                "responses": [
+                    "Si dos o más clubes empatan en puntos al final de la Fase I, el desempate se decide aplicando los siguientes criterios en este orden:\n1. Mayor diferencia entre el total de goles a favor y el total de goles en contra.\n2. Mayor número de goles a favor.\n3. Mayor número de goles a favor como visitante.\n4. Menor número de goles en contra como visitante.\n5. Por sorteo realizado por DIMAYOR en presencia de los delegados de los clubes involucrados."
+                ]
+            },
+            {
+                "tag": "fase_ii_cuadrangulares",
+                "patterns": [
+                    "cuadrangulares semifinales",
+                    "organizan los cuadrangulares",
+                    "grupos A y B en la Liga BetPlay"
+                ],
+                "responses": [
+                    "En la Fase II, los 8 clubes clasificados se dividen en dos grupos denominados GRUPO A y GRUPO B. Los cuadrangulares se juegan en partidos de ida y vuelta.\nLos clubes que ocupen la primera y segunda posición en la Fase I serán cabeza de grupo. Los demás clubes serán ubicados en los grupos mediante sorteo.\nLos clubes que ocupen las posiciones 3, 5 y 7 serán sorteados en el GRUPO A o GRUPO B, y sembrarán a los clubes en posiciones 4, 6 y 8 en el grupo contrario."
+                ]
+            },
+            {
+                "tag": "localia_cuadrangulares",
+                "patterns": [
+                    "localía en los cuadrangulares",
+                    "local en los cuadrangulares",
+                    "localía en la Liga BetPlay"
+                ],
+                "responses": [
+                    "La localía en los cuadrangulares semifinales se define mediante sorteo, excepto para los clubes que ocuparon la primera y segunda posición en la Fase I, que serán locales en la última fecha.\nLos clubes que compartan ciudad y estadio no podrán disputar partidos como local en la misma fecha."
+                ]
+            },
+            {
+                "tag": "clasificados_a_la_final",
+                "patterns": [
+                    "clasificación final",
+                    "criterios final de la Liga"
+                ],
+                "responses": [
+                    "Los clubes que ocupen la primera posición en el GRUPO A y en el GRUPO B, basándose en la mayor puntuación al finalizar la Fase II, clasificarán a la final de la Liga BetPlay DIMAYOR II 2024."
+                ]
+            },
+            {
+                "tag": "empate_cuadrangulares",
+                "patterns": [
+                    "empate en los cuadrangulares",
+                    "empate en la Fase II",
+                    "desempate en los cuadrangulares"
+                ],
+                "responses": [
+                    "En caso de empate en los cuadrangulares semifinales, los criterios de desempate son los siguientes:\n1. Mayor diferencia entre el total de goles a favor y el total de goles en contra en la Fase II.\n2. Mayor número de goles a favor en la Fase II.\n3. Mayor número de goles a favor como visitante en la Fase II.\n4. Menor número de goles en su contra como visitante en la Fase II.\n5. Mejor posición en la tabla de la Fase I ('Todos contra todos')."
+                ]
+            },
+            {
+                "tag": "final_liga",
+                "patterns": [
+                    "final de la Liga BetPlay",
+                    "campeón",
+                    "partidos en la final"
+                ],
+                "responses": [
+                    "La final de la LIGA BETPLAY DIMAYOR II 2024 se juega en dos partidos, uno de ida y otro de vuelta. El club que obtenga mayor puntuación en estos partidos será el campeón."
+                ]
+            },
+            {
+                "tag": "localia_final",
+                "patterns": [
+                    "localía en la final",
+                    "visitante en la ida"
+                ],
+                "responses": [
+                    "El club que haya obtenido más puntos en la sumatoria de las fases I y II será visitante en el partido de ida de la final.\nSi persiste el empate, los criterios de desempate para definir la localía en la final son:\n1. Mayor diferencia entre el total de goles a favor y el total de goles en contra en la Fase II.\n2. Mayor número de goles a favor en la Fase II.\n3. Mayor número de goles a favor como visitante en la Fase II.\n4. Menor número de goles en su contra como visitante en la Fase II.\n5. Por sorteo realizado por DIMAYOR en presencia de los delegados involucrados."
+                ]
+            },
+            {
+                "tag": "empate_final",
+                "patterns": [
+                    "empate en la final",
+                    "desempate en la final"
+                ],
+                "responses": [
+                    "Si hay empate en puntos en la final, se resolverá de la siguiente forma:\n1. Mayor diferencia entre el total de goles a favor y el total de goles en contra.\n2. Si persiste el empate al término del segundo partido (partido de vuelta), se definirá mediante lanzamientos desde el punto penal, conforme al procedimiento de la IFAB."
+                ]
+            },
+            {
+                "tag": "tabla_de_posiciones_general",
+                "patterns": [
+                    "tabla de posiciones general",
+                    "tabla de posiciones",
+                    "puntos la tabla de posiciones"
+                ],
+                "responses": [
+                    "La Tabla de Posiciones de la LIGA BETPLAY DIMAYOR II 2024 se obtiene sumando los puntos obtenidos en las fases 'Todos contra todos', 'Cuadrangulares semifinales' y 'Final'."
+                ]
+            },
+            {
+                "tag": "empate_tabla_general",
+                "patterns": [
+                    "empate en la tabla de posiciones",
+                    "empates en la tabla general",
+                    "desempate en la tabla de posiciones"
+                ],
+                "responses": [
+                    "Si hay empate en puntos en la Tabla de Posiciones, el desempate se decidirá según los siguientes criterios:\n1. Mayor diferencia entre el total de goles a favor y en contra en las fases I, II y III.\n2. Mayor número de goles a favor en las fases I, II y III.\n3. Mayor número de goles a favor como visitante en las fases I, II y III.\n4. Menor número de goles en contra como visitante en las fases I, II y III.\n5. Por sorteo realizado por DIMAYOR en presencia de los delegados de los clubes."
+                ]
+            },
+            {
+                "tag": "tabla_reclasificacion_total",
+                "patterns": [
+                    "tabla de reclasificación",
+                    "calcula la tabla de reclasificación",
+                    "reclasificación de la Liga BetPlay"
+                ],
+                "responses": [
+                    "La Tabla de Reclasificación Total de la Liga BetPlay DIMAYOR 2024 resulta de la sumatoria de los puntos obtenidos en la Liga BetPlay DIMAYOR I y II 2024 en todas sus fases."
+                ]
+            },
+            {
+                "tag": "empate_reclasificacion_total",
+                "patterns": [
+                    "empate en la tabla de reclasificación",
+                    "desempate en la reclasificación total"
+                ],
+                "responses": [
+                    "Si dos o más clubes empatan en puntos en la Tabla de Reclasificación Total, se aplican los siguientes criterios en este orden:\n1. Mayor diferencia entre el total de goles a favor y en contra durante el año 2024.\n2. Mayor número de goles a favor durante el año 2024.\n3. Mayor número de goles a favor como visitante durante el año 2024.\n4. Menor número de goles en contra como visitante durante el año 2024.\n5. Por sorteo realizado por DIMAYOR en presencia de los delegados en cuestión."
+                ]
+            },
+            {
+                "tag": "premio_goleador",
+                "patterns": [
+                    "goleador de la Liga BetPlay",
+                    "goleador",
+                    "máximo goleador"
+                ],
+                "responses": [
+                    "El goleador será el jugador con mayor número de goles en la Liga BetPlay DIMAYOR II 2024.\nSi dos o más jugadores anotan el mismo número de goles, los criterios de desempate serán:\n1. Menor cantidad de partidos en competencia.\n2. Menor cantidad de minutos disputados en competencia.\n3. Mayor número de asistencias de gol."
+                ]
+            },
+            {
+                "tag": "premio_asistencia",
+                "patterns": [
+                    "jugador más asistencias",
+                    "mejor asistente",
+                    "jugador con más asistencias de gol"
+                ],
+                "responses": [
+                    "El premio a la asistencia de gol será otorgado al jugador con mayor número de asistencias en la Liga BetPlay DIMAYOR II 2024.\nSi dos o más jugadores tienen el mismo número de asistencias, los criterios de desempate serán:\n1. Menor cantidad de partidos en competencia.\n2. Menor cantidad de minutos disputados en competencia.\n3. Mayor número de goles anotados."
+                ]
+            },
+            {
+                "tag": "premio_valla_menos_vencida",
+                "patterns": [
+                    "arquero con la valla menos vencida",
+                    "valla menos vencida",
+                    "arquero con menos goles recibidos"
+                ],
+                "responses": [
+                    "El premio a la valla menos vencida será otorgado al arquero que reciba la menor cantidad de goles, con la mayor cantidad de partidos disputados en la competencia.\nSi dos o más arqueros tienen el mismo número de goles recibidos, los criterios de desempate serán:\n1. Mayor cantidad de minutos disputados en competencia.\n2. El arquero que pertenezca al club que haya avanzado en más fases de la competencia."
+                ]
+            },
+            {
+                "tag": "premiacion",
+                "patterns": [
+                    "hace la premiación",
+                    "premia al goleador y a los mejores jugadores",
+                    "premios se entregan"
+                ],
+                "responses": [
+                    "La DIMAYOR podrá premiar al goleador, al jugador con mayor número de asistencias a gol y al arquero con la valla menos vencida en la final de la Liga BetPlay DIMAYOR II 2024 o en un evento posterior."
+                ]
+            },
+            {
+              "tag": "conmebol_libertadores_2025",
+              "patterns": [
+                "clasifican a la Libertadores",
+                "clasificación Libertadores",
+                "cupos CONMEBOL Libertadores 2025"
+              ],
+              "responses": [
+                "Para la CONMEBOL Libertadores 2025, los cupos se asignan así: Colombia N°1 y Colombia N°2 serán los campeones de la Liga BetPlay DIMAYOR I y II del 2024, respectivamente. Colombia N°3 y Colombia N°4 serán los equipos mejor posicionados en la Tabla de Reclasificación Total 2024, que no sean campeones.\nSi un mismo equipo gana ambas Ligas BetPlay DIMAYOR (I y II), los cupos de Colombia N°2, N°3 y N°4 serán para los mejores equipos en la Tabla de Reclasificación Total 2024.\nEn caso de que un equipo clasifique a la Libertadores 2025 por ganar la Libertadores 2024 o la Sudamericana 2024, los cupos se reasignarán según la Tabla de Reclasificación Total 2024.\nSi un equipo desciende a la categoría B pero obtiene un cupo por sus logros en el 2024, este cupo será reasignado al mejor posicionado en la Tabla de Reclasificación Total 2024."
+              ]
+            },
+            {
+              "tag": "conmebol_sudamericana_2025",
+              "patterns": [
+                "clasifican a la Sudamericana",
+                "clasificación de equipos colombianos a la Sudamericana",
+                "cupos de Colombia para la CONMEBOL Sudamericana",
+                "Condiciones para clasificar a la Sudamericana"
+              ],
+              "responses": [
+                "Para la CONMEBOL Sudamericana 2025, el cupo Colombia N°1 será para el campeón de la Copa BetPlay DIMAYOR 2024. Los cupos Colombia N°2, N°3 y N°4 serán para los equipos mejor posicionados en la Tabla de Reclasificación Total 2024 que no clasifiquen a la Libertadores 2025."
+              ]
+            },
+            {
+              "tag": "tabla_de_descenso_2024",
+              "patterns": [
+                "calcular tabla de descenso",
+                "reglas descenso en la Liga BetPlay",
+                "cálculo promedio de descenso",
+                "descenso Liga BetPlay DIMAYOR"
+              ],
+              "responses": [
+                "La Tabla de Descenso de la Liga BetPlay DIMAYOR 2024 se elabora con el promedio de puntos obtenidos, calculado dividiendo el total de puntos entre el total de partidos jugados.\n Para Fortaleza FC y Patriotas Boyacá, el promedio se calcula con los puntos obtenidos en las Fases I de las Ligas BetPlay I y II del 2024, dividido entre los partidos jugados en esas fases\nPara Boyacá Chicó, el promedio incluye los puntos obtenidos en las Fases I de las Ligas BetPlay I y II de 2023 y 2024, dividido entre los partidos jugados en esas fases.\n Para los demás clubes, el promedio considera los puntos obtenidos en las Fases I de las Ligas BetPlay desde 2022 hasta 2024, dividido entre los partidos jugados en esas fases."
+              ]
+            },
+            {
+              "tag": "criterios_desempate_descenso_2024",
+              "patterns": [
+                "resolver empates tabla de descenso",
+                "criterios desempatar tabla de descenso Liga BetPlay",
+                "desempates promedio de descenso",
+                "reglas desempate descenso Liga BetPlay DIMAYOR"
+              ],
+              "responses": [
+                "Los empates en la tabla de descenso 2024 se resuelven atendiendo los siguientes criterios, en orden: 1) Mayor puntaje obtenido en las Fases I de las Ligas BetPlay I y II 2024, 2) Mayor diferencia de goles, 3) Mayor número de goles a favor, 4) Mayor número de goles a favor como visitante, 5) Menor número de goles en contra como visitante, 6) Mayor cantidad de partidos ganados.\nSi el empate persiste tras aplicar los criterios, el desempate se decidirá mediante un sorteo realizado por la DIMAYOR en presencia de los delegados involucrados."
+              ]
+            },
+            {
+              "tag": "descenso_2024",
+              "patterns": [
+                "cuantos equipos descienden",
+                "reglas descenso",
+                "descenso categoría B",
+                "equipos descienden Liga BetPlay"
+              ],
+              "responses": [
+                "Los clubes que ocupen las dos últimas posiciones en la Tabla de Descenso de la Liga BetPlay DIMAYOR 2024 descenderán a la Categoría Primera B o al Torneo BetPlay DIMAYOR 2025.\nSerán reemplazados por los dos clubes que, según el Reglamento del Torneo BetPlay DIMAYOR 2024, adquieran el derecho a participar en la Categoría A en 2025."
+              ]
+            },
+            {
+              "tag": "inscripcion_jugadores",
+              "patterns": [
+                "realizar inscripción jugadores Liga BetPlay?",
+                "reglas inscribir jugadores Liga BetPlay",
+                "normas inscripción jugadores profesionales",
+                "Cupos jugadores Liga BetPlay"
+              ],
+              "responses": [
+                "Para la Liga BetPlay DIMAYOR II 2024, los clubes que participen en la Conmebol Libertadores o Sudamericana 2024 podrán inscribir hasta 35 jugadores profesionales. Los clubes que no participen en estas competencias podrán inscribir hasta 30 jugadores profesionales.\nLas inscripciones deben realizarse conforme a la reglamentación aplicable, como la Circular 014 del 27 de junio de 2024, y los procesos establecidos por la DIMAYOR.\nLas inscripciones deben gestionarse mediante el sistema en línea COMET de la FCF, y la actuación de los jugadores será autorizada tras legalizar su transferencia dentro del plazo reglamentario."
+              ]
+            },
+            {
+              "tag": "cupo_extranjeros",
+              "patterns": [
+                "jugadores extranjeros inscribir club",
+                "jugadores extranjeros Liga BetPlay",
+                "normas jugadores extranjeros equipos Liga BetPlay"
+              ],
+              "responses": [
+                "Los clubes afiliados a la DIMAYOR pueden inscribir un máximo de 4 jugadores extranjeros dentro del cupo total establecido para sus plantillas."
+              ]
+            },
+            {
+              "tag": "periodo_inscripcion",
+              "patterns": [
+                "inscribir jugadores Liga BetPlay",
+                "período inscripciones Liga BetPlay"
+              ],
+              "responses": [
+                "Las inscripciones se realizan en los períodos establecidos por la Circular 014 del 27 de junio de 2024 y otros reglamentos emitidos por la DIMAYOR.\nNo se pueden realizar inscripciones los días domingo, y los documentos deben enviarse con al menos 6 horas de antelación al partido programado. La administración dispone de 3 horas para verificar los datos en el sistema COMET."
+              ]
+            },
+            {
+              "tag": "cancelacion_inscripcion",
+              "patterns": [
+                "cancelar inscripción durante Liga BetPlay",
+                "reglas cancelación inscripciones jugadores"
+              ],
+              "responses": [
+                "No se pueden cancelar inscripciones durante la misma competencia para ampliar los cupos establecidos.\nLos clubes que realicen transferencias definitivas internacionales pueden cancelar la inscripción de un jugador transferido y reemplazarlo dentro de las 2 semanas siguientes a la oficialización de la transferencia en el sistema TMS."
+              ]
+            },
+            {
+              "tag": "cambio_club",
+              "patterns": [
+                "jugador puede cambiar club misma competencia",
+                "reglas cambios club Liga BetPlay",
+                "transferir jugador inscrito en un partido"
+              ],
+              "responses": [
+                "Un jugador inscrito en la planilla de juego de un partido oficial no podrá cambiar de un club a otro durante la misma competencia."
+              ]
+            },
+            {
+              "tag": "inscripcion_jugadores_categoria_b",
+              "patterns": [
+                "inscribir jugadores categoría B en categoría A",
+                "reglas inscripciones jugadores categoría B",
+                "jugadores categoría B regresar a la misma competencia"
+              ],
+              "responses": [
+                "Los jugadores provenientes de la categoría B pueden ser inscritos en la categoría A dentro de los términos y reglamentación aplicable. Una vez inscritos, no podrán regresar a la categoría anterior dentro de la misma competencia.\nLo mismo aplica para jugadores de la categoría A que sean inscritos en la categoría B."
+              ]
+            },
+            {
+              "tag": "autorizacion_participacion",
+              "patterns": [
+                "jugador participe en un partido",
+                "reglas jugador esté planillas de juego",
+                "autorización requiere un jugador competir"
+              ],
+              "responses": [
+                "Un jugador podrá actuar y figurar en las planillas de juego solo si ha obtenido la aprobación de la DIMAYOR a través del sistema COMET y está registrado oficialmente cumpliendo todos los requisitos reglamentarios."
+              ]
+            },
+            {
+              "tag": "prohibicion_competencias_no_oficiales",
+              "patterns": [
+                "pueden jugadores participar en torneos no oficiales",
+                "restricciones participar en otras competencias",
+                "reglas sobre competiciones simultáneas"
+              ],
+              "responses": [
+                "Los jugadores inscritos en la Liga BetPlay DIMAYOR II 2024 no podrán actuar en competencias no oficiales sin autorización de la DIMAYOR. Están exentos los campeonatos organizados por la FCF, selecciones nacionales o torneos internacionales reconocidos por FIFA o CONMEBOL."
+              ]
+            },
+            {
+              "tag": "jugadores_sub_20",
+              "patterns": [
+                "pueden jugadores Sub 20 participar en la Liga BetPlay",
+                "normas jugadores Campeonato Nacional Juvenil Sub 20"
+              ],
+              "responses": [
+                "Los jugadores inscritos en el Campeonato Nacional Juvenil Sub 20 organizado por la FCF pueden participar como aficionados a prueba en la Liga BetPlay DIMAYOR II 2024.\nLos clubes que tengan más de un equipo en el Campeonato Nacional Juvenil Sub 20 deben notificar a DIMAYOR cuál será el equipo que participará. Esta decisión no puede ser modificada durante la competencia."
+              ]
+            },
+            {
+              "tag": "inscripcion_cuerpo_tecnico",
+              "patterns": [
+                "inscribir cuerpo técnico",
+                "normas inscribir personal del club",
+                "inscripción entrenadores y personal de apoyo"
+              ],
+              "responses": [
+                "Las inscripciones del cuerpo técnico y personal de apoyo (director técnico, asistentes, médico, delegado, etc.) se realizarán según las disposiciones establecidas en la reglamentación aplicable, como la Circular 014 del 27 de junio de 2024 y otras emitidas por la DIMAYOR.\nEl director técnico, asistente técnico y preparador físico no podrán ser inscritos en dos clubes diferentes durante el desarrollo de la Liga BetPlay DIMAYOR II 2024."
+              ]
+            },
+            {
+              "tag": "inscripcion_medico_planilla",
+              "patterns": [
+                "es obligatorio un médico en los partidos",
+                "reglas médico en la planilla de juego",
+                "qué sucede si no hay un médico registrado en el partido"
+              ],
+              "responses": [
+                "Los clubes deben presentarse en los partidos con un médico debidamente inscrito en el sistema COMET y registrado en la planilla de juego. Sin este requisito, el árbitro no iniciará o continuará el partido, con las respectivas sanciones para el club infractor.\nEs obligatorio que todos los clubes inscriban un médico en el sistema COMET para participar en la Liga BetPlay DIMAYOR II 2024."
+              ]
+            },
+            {
+              "tag": "numero_extranjeros_planilla",
+              "patterns": [
+                "cuántos jugadores extranjeros estar en la planilla de un partido",
+                "límite extranjeros en los partidos"
+              ],
+              "responses": [
+                "El número máximo de jugadores extranjeros que pueden ser registrados en la planilla oficial de un partido será conforme al límite establecido por la DIMAYOR. Asegúrate de revisar la reglamentación vigente para más detalles.\nEn cada partido oficial, se podrán alinear un máximo de 3 jugadores extranjeros."
+              ]
+            },
+            {
+              "tag": "carga_planilla_comet",
+              "patterns": [
+                "cargar planilla en el sistema COMET",
+                "Reglas planilla de juego en COMET",
+                "qué pasa si no se carga la planilla COMET"
+              ],
+              "responses": [
+                "La planilla de juego debe ser cargada en la plataforma COMET por ambos clubes (local y visitante) al menos 2 horas antes del inicio del partido. Si es necesario sustituir un jugador titular, esto debe informarse al Comisario de Campo y cuerpo arbitral, y actualizarse la planilla. El partido no comenzará si la planilla no está debidamente diligenciada."
+              ]
+            },
+            {
+              "tag": "verificacion_planilla_juego",
+              "patterns": [
+                "verifica planilla de juego",
+                "supervisa planilla antes del partido",
+                "reglas verificación de la planilla"
+              ],
+              "responses": [
+                "Un miembro del cuerpo arbitral y el Comisario de Campo verificarán la planilla oficial de juego antes del partido. Los delegados de cada club deben presentar documentos de identificación para jugadores y personal registrados en la planilla."
+              ]
+            },
+            {
+              "tag": "jugadores_suplentes_y_cambios",
+              "patterns": [
+                "cuántos cambios están permitidos en un partido",
+                "reglas suplentes",
+                "reglas sustituciones"
+              ],
+              "responses": [
+                "En la planilla de juego pueden inscribirse 11 jugadores titulares y un máximo de 7 suplentes. Durante el partido, cada equipo puede realizar hasta 5 cambios, utilizando un máximo de 3 momentos para efectuar las sustituciones. Los cambios realizados durante el descanso del medio tiempo no cuentan como momento para sustituciones."
+              ]
+            },
+            {
+              "tag": "boleteria_club_visitante",
+              "patterns": [
+                "cuántas boletas recibir club visitante",
+                "boletas equipo visitante",
+                "reglas boletas visitantes"
+              ],
+              "responses": [
+                "En todos los partidos de la LIGA BETPLAY DIMAYOR II 2024, el club local deberá entregar al delegado del club visitante cuarenta (40) boletas de cortesía, divididas en veinte (20) para la tribuna occidental y veinte (20) para la tribuna oriental. Estas boletas deben ser entregadas a más tardar el día anterior al partido e informadas a la Gerencia Deportiva de la DIMAYOR."
+              ]
+            },
+            {
+              "tag": "disposicion_palcos_visitante",
+              "patterns": [
+                "club visitante tiene derecho a un palco",
+                "palcos equipo visitante",
+                "reglas palcos visitantes"
+              ],
+              "responses": [
+                "En todos los partidos de la LIGA BETPLAY DIMAYOR II 2024, el club local debe poner a disposición del club visitante un palco con todas las medidas de seguridad y capacidad mínima para 10 personas. El Comisario de Campo supervisará esta obligación."
+              ]
+            },
+            {
+              "tag": "boletas_fase_semifinal_final",
+              "patterns": [
+                "cuántas boletas vender al visitante en semifinales y finales",
+                "venta boletas en fases finales",
+                "reglas boletas en semifinales y finales"
+              ],
+              "responses": [
+                "Para cada partido de la fase semifinal y la fase final de la LIGA BETPLAY DIMAYOR II 2024, el club local deberá poner a disposición del club visitante un mínimo de dos mil (2000) boletas, distribuidas en 1000 para la tribuna occidental y 1000 para la tribuna oriental. Si el equipo local juega en un estadio alterno autorizado, la cantidad de boletas disponibles será proporcional al aforo de dicho escenario.\nPara los partidos de ida y vuelta de la Final de la LIGA BETPLAY DIMAYOR II 2024, el club correspondiente deberá poner a disposición de la DIMAYOR sesenta (60) boletas/ingresos de la tribuna occidental sin costo alguno. Además, si la DIMAYOR requiere un palco, deberá solicitarlo con al menos tres (3) días de antelación y el espacio debe tener capacidad mínima para 15 personas."
+              ]
+            },
+            {
+              "tag": "boleteria_patrocinadores",
+              "patterns": [
+                "cuántas boletas reciben patrocinadores",
+                "boletas patrocinadores"
+              ],
+              "responses": [
+                "Los clubes afiliados están obligados a entregar boletas según los acuerdos contractuales con los patrocinadores de la LIGA BETPLAY DIMAYOR II 2024 y la circular de mercadeo vigente. Estas deben ser enviadas a la DIMAYOR a través de la Gerencia Comercial y de Mercadeo, quien las distribuirá según los compromisos contractuales. La entrega debe realizarse a más tardar el día anterior al partido."
+              ]
+            },
+            {
+              "tag": "mascara_marcador_tiempo",
+              "patterns": [
+                "qué debe aparecer pantalla del estadio",
+                "reglas pantallas en estadios",
+                "mascara de marcador y tiempo de juego"
+              ],
+              "responses": [
+                "En los estadios que cuenten con pantallas, el club local debe garantizar el uso de la máscara de pantalla proporcionada por la DIMAYOR, que incluye el logo compuesto de la Liga BetPlay DIMAYOR 2024, el logo de la DIMAYOR y los logos de los clubes en competencia. Esto aplica mientras se proyecta el marcador y el tiempo de juego."
+              ]
+            },
+            {
+              "tag": "derechos_patrocinadores_socios",
+              "patterns": [
+                "qué derechos tienen patrocinadores",
+                "derechos socios oficiales DIMAYOR",
+                "reglas sobre vallas y ambientación en partidos"
+              ],
+              "responses": [
+                "Los patrocinadores y socios oficiales de la DIMAYOR tienen derechos a colocar vallas estáticas, minutos en vallas digitales, tapetes, cojines, pórtico de salida oficial, entre otros, según los contratos y la Circular de mercadeo vigente. Durante la fase final, los clubes locales deben facilitar la organización y ejecución de ceremonias de premiación y ambientación antes, durante y después del partido."
+              ]
+            },
+            {
+              "tag": "comunicados_oficiales_clubes",
+              "patterns": [
+                "comunicados oficiales de los clubes"
+              ],
+              "responses": [
+                "Los clubes deben incluir el logotipo y el nombre oficial de la LIGA BETPLAY DIMAYOR II 2024 en sus mensajes institucionales, comunicados de prensa, alineaciones, guías de medios y publicaciones digitales. Toda comunicación en páginas web, redes sociales y aplicaciones móviles relacionada con los partidos de la liga debe incluir el logotipo y el nombre oficial de la competencia."
+              ]
+            },
+          {
+            "tag": "recogebolas_balones",
+            "patterns": [
+              "Cuántos recogebolas se necesitan",
+              "número de balones requeridos",
+              "Reglas sobre recogebolas y balones en la LIGA BETPLAY DIMAYOR II 2024"
+            ],
+            "responses": [
+              "En todos los partidos de la LIGA BETPLAY DIMAYOR II 2024, el club local debe disponer de 10 recogebolas y 12 balones alrededor del campo de juego. Además, se debe contar con 1 balón adicional para el desarrollo del partido."
+            ]
+          },
+          {
+            "tag": "balon_oficial",
+            "patterns": [
+              "balón oficial de la liga",
+              "Marca del balón obligatorio",
+              "Balón utilizado en la LIGA BETPLAY DIMAYOR II 2024"
+            ],
+            "responses": [
+              "El balón oficial de la LIGA BETPLAY DIMAYOR II 2024 es el 'GOLTY PROFESSIONAL', autorizado por DIMAYOR, con el logo oficial de la Competencia. Este balón es entregado por el patrocinador oficial, GOLTY."
+            ]
+          },
+          {
+            "tag": "uniformes_jugadores",
+            "patterns": [
+              "uniformes deben registrar los clubes",
+              "Reglas sobre uniformes de jugadores y arqueros",
+              "Normas de indumentaria en la LIGA BETPLAY DIMAYOR II 2024"
+            ],
+            "responses": [
+              "Antes de iniciar la competencia, los clubes deben registrar tres opciones de uniformes para jugadores y tres para arqueros, remitiendo las prendas en físico a la Gerencia Deportiva de la DIMAYOR. Los colores del uniforme local, visitante y alterno, tanto para jugadores como arqueros, no deben coincidir entre ellos. La Gerencia Deportiva de la DIMAYOR designará los uniformes que deben utilizar en cada partido."
+            ]
+          },
+          {
+            "tag": "detalles_uniformes",
+            "patterns": [
+              "logos deben incluir los uniformes",
+              "Normas sobre los números y nombres en las camisetas",
+              "Detalles obligatorios de los uniformes de la liga"
+            ],
+            "responses": [
+              "Los uniformes deben incluir los logos oficiales de la DIMAYOR y de la Competencia en las mangas derecha e izquierda, con medidas de 8 cm de alto por 8.5 cm de ancho. Opcionalmente, las camisetas pueden incluir el nombre, apellido o apodo del jugador en la parte superior o inferior del número, con una altura máxima de 7 cm. Además, los números y letras deben contrastar con el color de la camiseta y pantaloneta."
+            ]
+          },
+          {
+            "tag": "reconocimientos_eventos",
+            "patterns": [
+              "eventos especiales organiza DIMAYOR?",
+              "Premios en la LIGA BETPLAY DIMAYOR II 2024"
+            ],
+            "responses": [
+              "DIMAYOR organiza varios eventos y reconocimientos especiales, tales como: \n- **Jugador del Partido**: Seleccionado por los comentaristas y coordinado por el oficial de medios y mercadeo para recibir su reconocimiento. \n- **Gol de la Fecha**: Reconocimiento al jugador que marque el gol más destacado, elegido por DIMAYOR. \n- **Atajada de la Fecha**: Se elige la mejor atajada de la jornada y se reconoce al jugador a través de los canales oficiales. \n- **Balón del Gol**: El balón utilizado en cada gol marcado es entregado al comisario DIMAYOR y firmado por el jugador que anotó. \n- **Ceremonia Semestral o Anual de Premios**: Los clubes deben asistir con su entrenador y capitán a la ceremonia de premiación organizada por DIMAYOR en alianza con un patrocinador."
+            ]
+          },
+          {
+            "tag": "premiacion_final",
+            "patterns": [
+              "la premiación de la Final",
+              "Premiación final LIGA BETPLAY DIMAYOR II 2024",
+              "asisten la premiación de la final"
+            ],
+            "responses": [
+              "En la premiación de la Final de la LIGA BETPLAY DIMAYOR II 2024, sólo podrán estar presentes los jugadores, miembros del cuerpo técnico inscritos en la planilla de juego, el presidente del club correspondiente, el presidente de la DIMAYOR o su representante, y un representante del patrocinador principal."
+            ]
+          },
+          {
+            "tag": "protocolo_premiacion",
+            "patterns": [
+              "¿Cómo es la premiación en la Liga BetPlay?"
+            ],
+            "responses": [
+              "El protocolo de premiación de DIMAYOR establece que los jugadores y cuerpo técnico no convocados deben estar uniformados con la ropa de presentación del club y ubicados en su palco tras el calentamiento. No pueden permanecer en el campo ni en sus alrededores. Solo el presidente del club campeón y una persona designada por él tienen acceso a la ceremonia de premiación.\n Se entregarán 50 medallas al club campeón, de las cuales 26 se otorgan en tarima y 24 se entregan al delegado del club en el camerino. \n Los clubes deben seguir el protocolo oficial y sus modificaciones comunicadas por la Gerencia Deportiva de DIMAYOR."
+            ]
+          },
+          {
+            "tag": "protocolo_premiacion_reglas",
+            "patterns": [
+              "Reglas de premiación de DIMAYOR",
+              "¿Cómo es la premiación en la Liga BetPlay?"
+            ],
+            "responses": [
+              "El protocolo de premiación de DIMAYOR establece que los jugadores y cuerpo técnico no convocados deben estar uniformados con la ropa de presentación del club y ubicados en su palco tras el calentamiento. No pueden permanecer en el campo ni en sus alrededores.",
+              "Los clubes deben seguir el protocolo oficial y sus modificaciones comunicadas por la Gerencia Deportiva de DIMAYOR."
+            ]
+          },
+          {
+            "tag": "medallas_premiacion",
+            "patterns": [
+              "medallas se entregan en la premiación",
+              "Distribución de medallas en la premiación",
+              "Medallas para jugadores y cuerpo técnico"
+              
+            ],
+            "responses": [
+              "En la tarima de premiación se entregan 18 medallas a los jugadores registrados en la planilla oficial, 6 al cuerpo técnico, 1 al presidente del club y 1 a la persona designada por él. En total, son 26 medallas. \n Las 24 medallas restantes se entregan al delegado del club campeón en su camerino."
+            ]
+          },
+          {
+            "tag": "entrega_trofeo",
+            "patterns": [
+              "trofeo al campeón",
+              "Entrega del trofeo al capitán",
+              "trofeo de premiación",
+              "Protocolo para la entrega del trofeo"
+            ],
+            "responses": [
+              "El trofeo es entregado al capitán del club campeón por el Presidente o un Delegado de DIMAYOR, junto con un representante del patrocinador oficial. \n La entrega del trofeo es el último acto de la premiación."
+            ]
+          },
+          {
+            "tag": "zona_vip_premiacion",
+            "patterns": [
+              "zona VIP durante la premiación?",
+              "Reglas para la zona VIP en la premiación",
+              "Los familiares en el campo durante la premiación",
+              "¿Dónde pueden estar los directivos en la premiación?"
+            ],
+            "responses": [
+              "En la zona VIP de la premiación, pueden estar los miembros de la junta directiva del club campeón.\n Los familiares de los jugadores solo pueden ingresar al campo después de que se tome la foto oficial del equipo campeón."
+            ]
+          },
+          {
+            "tag": "reconocimientos_premiacion",
+            "patterns": [
+              "entrega los reconocimientos en la premiación",
+              "reconocimientos se dan en la premiación",
+              "roles se premian en la ceremonia",
+              "¿Quién entrega las placas y medallas en la premiación"
+            ],
+            "responses": [
+              "Los reconocimientos son entregados por el Presidente de DIMAYOR o su delegado, el representante del patrocinador oficial, el presidente del club campeón y una persona designada por este. \n Se entregan placas de reconocimiento a los árbitros del partido, medallas a los jugadores, cuerpo técnico, presidente del club y su designado."
+            ]
+          },
+          {
+            "tag": "reglas_patrocinio",
+            "patterns": [
+              "reglas patrocinio en la premiación?",
+              "Compromisos contractuales de patrocinio",
+              "relación con el patrocinio?",
+              "reglas de la Liga BetPlay sobre patrocinio"
+            ],
+            "responses": [
+              "Los clubes deben acatar las disposiciones del protocolo de premiación y sus modificaciones relacionadas con los compromisos contractuales de patrocinio de la Liga BetPlay DIMAYOR. \n No se pueden comercializar los elementos de premiación, como trofeos, medallas o placas."
+            ]
+          },
+          {
+            "tag": "honorarios_arbitros",
+            "patterns": [
+              "honorarios de los árbitros",
+              "pagan los árbitros en la Liga BetPlay",
+              "Reglas sobre el pago a los árbitros",
+              "Responsabilidad del club local con los árbitros"
+            ],
+            "responses": [
+              "El club local es responsable de pagar los honorarios del árbitro antes del segundo tiempo del partido. Esto puede hacerse mediante transferencia bancaria a la cuenta de árbitros o en efectivo. \n El comisario de campo verifica el pago realizado al árbitro. Si no se cumple con este requisito, el árbitro no continuará el partido, lo que acarreará sanciones disciplinarias para el club infractor."
+            ]
+          },
+          {
+            "tag": "recogebolas",
+            "patterns": [
+              "¿Cuántos recogebolas debe haber en un partido?",
+              "Reglas para los recogebolas en la Liga BetPlay",
+              "Identificación de los recogebolas",
+              "¿Qué edad deben tener los recogebolas?"
+            ],
+            "responses": [
+              "En cada partido de la Liga BetPlay DIMAYOR II 2024 deben haber 10 recogebolas, quienes serán auxiliares de la terna arbitral oficial. \n Los recogebolas deben presentarse ante el equipo arbitral una hora antes del inicio del partido y deben estar identificados con chalecos proporcionados por el patrocinador principal. No pueden usar indumentaria que haga alusión a alguno de los clubes participantes. \n Los recogebolas deben tener entre 12 y 15 años, y su conducta será responsabilidad disciplinaria del club local."
+            ]
+          },
+          {
+            "tag": "llegada_clubes_visitantes",
+            "patterns": [
+              "llegar los clubes visitantes",
+              "Reglas sobre llegada de los equipos visitantes",
+              "Hora de llegada al estadio de los clubes",
+              "llegar los equipos al estadio"
+            ],
+            "responses": [
+              "Los clubes visitantes deben informar la fecha y hora de su llegada al oficial de seguridad del club local, con copia al Asistente de Competiciones de la DIMAYOR, al menos 48 horas antes del partido.",
+              "Los clubes visitantes deben llegar a la ciudad del partido el día anterior. En caso de fuerza mayor, la DIMAYOR puede fijar una nueva fecha si el club lo prueba adecuadamente. Además, debe llegar al estadio al menos 1 hora y 45 minutos antes del inicio del partido, mientras que el club local debe llegar con al menos 1 hora y 30 minutos de anticipación."
+            ]
+          },
+          {
+            "tag": "cambio_uniformes",
+            "patterns": [
+              "uniformes de los equipos se confunden?",
+              "Reglas sobre el cambio de uniformes",
+              "Procedimiento por confusión de colores en uniformes",
+              "Cambio de uniformes para transmisión de TV"
+            ],
+            "responses": [
+              "Si los colores de los uniformes de los equipos generan confusión para la terna arbitral, el comisario de campo o para la transmisión televisiva, deben notificarlo a la Gerencia Deportiva de DIMAYOR. \n El cambio de uniformes debe ser autorizado como máximo una hora antes del inicio del partido."
+            ]
+          },
+          {
+            "tag": "jugadores_seleccionados",
+            "patterns": [
+              "jugador está convocado a la Selección Nacional",
+              "Suspensión de sanción para jugadores en Selección",
+              "artículo 21 CDU de la FCF"
+            ],
+            "responses": [
+              "Los jugadores convocados a la Selección Nacional de Mayores, Sub-20, preolímpica u olímpica podrán suspender temporalmente su sanción disciplinaria mientras estén en concentración. \n El beneficio aplica solo si el jugador está inscrito como profesional en la Liga BetPlay DIMAYOR II 2024 con el club solicitante al momento de la convocatoria, y no está cumpliendo otra sanción disciplinaria. \n Este beneficio no opera para convocatorias del Campeonato Nacional Juvenil Sub-20. El club interesado debe solicitarlo por escrito con al menos 24 horas de antelación al inicio de la sanción."
+            ]
+          },
+          {
+            "tag": "suspension_partido_fuerza_mayor",
+            "patterns": [
+              "partido se suspende por fuerza mayor?",
+              "Reglas sobre partidos suspendidos",
+              "Suspensión de partido por fuerza mayor",
+              "partido se suspende"
+            ],
+            "responses": [
+              "Si un partido oficial se suspende por fuerza mayor, se reanudará manteniendo el marcador registrado en el momento de la suspensión y solo se jugará el tiempo restante. \n Si la suspensión ocurre después de haber jugado 80 minutos o más, el partido se dará por terminado con el marcador registrado. \n La decisión de dar por terminado un partido solo puede ser tomada por el árbitro central en conjunto con la administración de DIMAYOR."
+            ]
+          },
+          {
+            "tag": "programacion_partidos_dimayor",
+            "patterns": [
+              "cambiar la programación de un partido",
+              "Reglas para aplazar partidos",
+              "adelantar un partido",
+              "cambiar el estadio de un partido"
+            ],
+            "responses": [
+              "La DIMAYOR puede aplazar o adelantar partidos en casos excepcionales, como compromisos internacionales o la no disponibilidad de escenarios deportivos. \n Un partido oficial puede ser disputado en un estadio diferente al principal o alterno registrado, solo si no hay disponibilidad de estos. \n La DIMAYOR también puede autorizar partidos a puerta cerrada previa solicitud del club local. En estos casos, solo ingresarán personas autorizadas, como los equipos en contienda, medios acreditados y personal de seguridad."
+            ]
+          },
+          {
+            "tag": "prohibicion_partido_amistoso",
+            "patterns": [
+              "convertir partido oficial en amistoso",
+              "cambio de partido oficial a amistoso",
+              "Reglas sobre partidos amistosos",
+              "partidos para jugar amistosos"
+            ],
+            "responses": [
+              "Un partido oficial no puede convertirse en amistoso bajo ninguna circunstancia, ni siquiera por acuerdo entre las partes.\n Tampoco se pueden aplazar partidos oficiales con el propósito de disputar encuentros amistosos en las fechas del calendario oficial."
+            ]
+          },
+          {
+            "tag": "espacios_rehidratacion",
+            "patterns": [
+              "pausas para rehidratarse",
+              "Reglas sobre espacios de rehidratación",
+              "pausar partidos para rehidratarse",
+              "Rehidratación en los partidos"
+            ],
+            "responses": [
+              "Se pueden tomar pausas para rehidratación con autorización del cuerpo arbitral, siempre que se ajusten a las Reglas de Juego de la IFAB. \n Estas pausas serán determinadas por los árbitros si lo consideran necesario."
+            ]
+          },
+          {
+            "tag": "formato_informacion_club",
+            "patterns": [
+              "formato de información del club",
+              "Formato de información de clubes",
+              "¿Para qué sirve el formato de información del club?",
+              "Reglas sobre el formato de información"
+            ],
+            "responses": [
+              "Los clubes deben diligenciar el formato de información proporcionado por la DIMAYOR según los tiempos establecidos. \n Este formato canaliza información, documentación y normas relacionadas con la competencia."
+            ]
+          },
+          {
+      "tag": "conferencia_pre_partido",
+      "patterns": [
+        "conferencia de prensa antes del partido",
+        "Reglas de la conferencia de prensa pre partido",
+        "Obligaciones antes del partido para la prensa",
+        "Conferencia de prensa previa en Liga BetPlay 2024"
+      ],
+      "responses": [
+        "En la Liga BetPlay DIMAYOR II 2024, los directores técnicos y capitanes de los clubes deben asistir a la conferencia de prensa oficial pre partido organizada por la DIMAYOR, si esta se realiza. La conferencia tendrá lugar el día previo al partido, en el lugar y hora estipulados por la administración de la DIMAYOR, que también cubrirá los gastos de traslado."
+      ]
+    },
+    {
+      "tag": "conferencia_post_partido",
+      "patterns": [
+        "conferencia de prensa después del partido",
+        "Reglas de la conferencia de prensa post partido",
+        "Conferencia de prensa posterior en Liga BetPlay",
+        "Obligaciones post partido para la prensa"
+      ],
+      "responses": [
+        "En la Liga BetPlay DIMAYOR II 2024, los directores técnicos y un jugador que haya participado en el partido deben asistir obligatoriamente a la conferencia de prensa post partido. El club visitante tiene un máximo de 15 minutos para ingresar al recinto, y cada club dispondrá de 20 minutos para responder preguntas aleatorias dirigidas al director técnico y al jugador. \n Los jugadores expulsados no podrán asistir a la conferencia de prensa, y en caso de que el director técnico sea expulsado, deberá ser reemplazado por el asistente técnico. Si ambos son expulsados, otro miembro del cuerpo técnico asumirá su lugar. \n El Oficial de Medios y Mercadeo de la DIMAYOR coordinará las conferencias, pero la moderación es responsabilidad de los equipos de comunicaciones del club local y visitante."
+      ]
+    },
+    {
+      "tag": "conferencia_final_campeonato",
+      "patterns": [
+        "conferencia de prensa de la final",
+        "Reglas de la conferencia de prensa en la final",
+        "Conferencia oficial de la final Liga BetPlay",
+        "Obligaciones para la prensa en la final de la Liga"
+      ],
+      "responses": [
+        "Para la final de ida y vuelta de la Liga BetPlay DIMAYOR II 2024, es obligatoria la asistencia de los directores técnicos y capitanes de los clubes finalistas a la conferencia de prensa oficial pre partido organizada por la DIMAYOR.",
+        "La conferencia de prensa oficial pre partido será estipulada por la DIMAYOR, en cuanto a día, hora y lugar, y no podrá ser modificada por los clubes. Los directores técnicos y capitanes no estarán habilitados para dar declaraciones a los medios 48 horas antes de la conferencia. \n En caso de fuerza mayor, los directores técnicos y capitanes pueden excusarse, enviando un reemplazo acreditado del cuerpo técnico y del plantel de jugadores."
+      ]
+    },
+{
+      "tag": "declaraciones_post_partido",
+      "patterns": [
+        "declaraciones post partido",
+        "Declaraciones de los técnicos después del partido",
+        "Reglas para entrevistas de directores técnicos tras el partido",
+        "Duración de las entrevistas post partido de los técnicos"
+      ],
+      "responses": [
+        "El director técnico de cada club deberá entregar una entrevista post partido a la producción licenciataria antes de la conferencia de prensa, si esta lo requiere. La entrevista no podrá exceder los 120 segundos."
+      ]
+    },
+    {
+      "tag": "actos_protocolarios",
+      "patterns": [
+        "actos protocolarios antes del partido",
+        "Reglas para la salida de los equipos al campo",
+        "Protocolos de entrada en la Liga BetPlay DIMAYOR",
+        "Actos oficiales antes de un partido"
+      ],
+      "responses": [
+        "Diez minutos antes de la hora oficial del partido, solo los árbitros y jugadores titulares pueden estar presentes en el túnel de salida. El cuerpo técnico y jugadores suplentes deben dirigirse al banco de suplentes tres minutos antes.\n La salida será encabezada por los árbitros, seguidos por el capitán y el resto de los jugadores. Todos pasarán por debajo del pórtico de ingreso ubicado por los patrocinadores oficiales de la Liga BetPlay DIMAYOR II 2024.\n El árbitro central tomará el balón del pedestal durante la salida. El club local se posicionará a la izquierda del atril arbitral y el visitante a la derecha."
+      ]
+    },
+    {
+      "tag": "entrega_balon_oficial",
+      "patterns": [
+        "entrega del balón oficial",
+        "Protocolo de entrega del balón oficial en el partido",
+        "Reglas sobre el balón oficial en Liga BetPlay",
+        "Entrega del balón antes del partido"
+      ],
+      "responses": [
+        "Si el partido incluye la entrega del balón oficial de la Liga BetPlay DIMAYOR, esta se realizará en el centro del campo antes de la patada inicial o del segundo tiempo. El patrocinador oficial será el encargado de llevar el balón al terreno de juego. \n La Gerencia de Comercial y de Mercadeo de la DIMAYOR notificará al club local sobre la entrega del balón oficial hasta 24 horas antes del partido."
+      ]
+    },
+    {
+      "tag": "foto_oficial",
+      "patterns": [
+        "fotos oficiales antes del partido",
+        "Foto oficial de los equipos en Liga BetPlay",
+        "Reglas para fotos antes del partido",
+        "Protocolo de fotos oficiales en el fútbol colombiano"
+      ],
+      "responses": [
+        "Cada club debe tomarse la foto oficial del partido con su once titular frente a la valla del patrocinador oficial de la Liga. \n Si hay campañas sociales, culturales o comerciales promovidas por la DIMAYOR, los clubes se tomarán una foto conjunta con los 22 jugadores frente a la valla indicada. Esto será informado previamente por la DIMAYOR."
+      ]
+    },
+{
+      "tag": "nominas_oficiales",
+      "patterns": [
+        "nóminas oficiales de los partidos",
+        "Reglas para entregar nóminas oficiales en Liga BetPlay",
+        "¿Qué deben hacer los clubes con las nóminas oficiales?",
+        "Normas sobre las nóminas oficiales en la DIMAYOR"
+      ],
+      "responses": [
+        "Los clubes deben entregar las nóminas oficiales del partido al Oficial de Medios y Mercadeo de la DIMAYOR de manera digital 90 minutos antes del inicio del partido.\n El Oficial de Medios y Mercadeo notificará al canal licenciatario, pero este no podrá publicar las nóminas hasta 60 minutos antes del partido o hasta que las autoridades de la DIMAYOR lo hagan público."
+      ]
+    },
+    {
+      "tag": "grabacion_camerinos",
+      "patterns": [
+        "reglas para grabar los camerinos",
+        "Grabación de camerinos antes de los partidos",
+        "Normas para el ingreso de medios al camerino",
+        "Reglas para grabar en los camerinos en la Liga BetPlay"
+      ],
+      "responses": [
+        "Los clubes deben permitir el ingreso al canal licenciatario de la DIMAYOR y a la Agencia Oficial de la DIMAYOR para grabar los camerinos antes del partido. \n El camerino debe estar preparado para el registro de televisión con la indumentaria del club al menos 90 minutos antes del inicio del partido."
+      ]
+    },
+    {
+      "tag": "media_day",
+      "patterns": [
+        "media day para los clubes?",
+        "Reglas para el media day en Liga BetPlay",
+        "Obligaciones de los clubes en el media day",
+        "equipos en el media day"
+      ],
+      "responses": [
+        "El media day es un evento obligatorio donde los clubes deben permitir al canal licenciatario de la DIMAYOR y a la Agencia Oficial DIMAYOR realizar un registro fotográfico y de video con los uniformes oficiales. \n El horario del media day debe ser concertado con el canal licenciatario y el Departamento de Comunicaciones de la DIMAYOR, y no debe coincidir con los partidos oficiales."
+      ]
+    },
+{
+      "tag": "nominas_oficiales",
+      "patterns": [
+        "nóminas oficiales de los partidos",
+        "Reglas para entregar nóminas oficiales en Liga BetPlay",
+        "¿Qué deben hacer los clubes con las nóminas oficiales?",
+        "Normas sobre las nóminas oficiales en la DIMAYOR"
+      ],
+      "responses": [
+        "Los clubes deben entregar las nóminas oficiales del partido al Oficial de Medios y Mercadeo de la DIMAYOR de manera digital 90 minutos antes del inicio del partido."
+      ]
+    },
+    {
+      "tag": "entrevista_llegada_estadio",
+      "patterns": [
+        "entrevista al llegar al estadio",
+        "Reglas sobre la entrevista de llegada al estadio",
+        "Obligaciones de los clubes al llegar al estadio",
+        "¿Los entrenadores deben dar entrevistas al llegar?"
+      ],
+      "responses": [
+        "El director técnico de cada club está obligado a conceder una entrevista de hasta 90 segundos al canal licenciatario y a la Agencia Oficial de la DIMAYOR al llegar al estadio, en el trayecto hacia el camerino. \n Esta entrevista será coordinada por el Oficial de Medios y Mercadeo de la DIMAYOR, junto con el jefe de prensa del club y la producción licenciataria."
+      ]
+    },
+    {
+      "tag": "zona_mixta",
+      "patterns": [
+        "funciona la zona mixta",
+        "Reglas de la zona mixta en Liga BetPlay",
+        "Zona mixta y acceso para periodistas",
+        "Normas para la zona mixta en el estadio"
+      ],
+      "responses": [
+        "Antes del partido, no se habilitará la zona mixta. Después del partido, estará disponible tras la conferencia de prensa de ambos clubes, dividida en dos zonas: una para el canal licenciatario y otra para los No Poseedores de Derecho (NPD).\n El espacio de la zona mixta debe contar con vallado y será responsabilidad del club local coordinar su habilitación con el Oficial de Medios y Mercadeo de la DIMAYOR. \n Solo periodistas acreditados, jugadores inscritos en planilla y el canal licenciatario podrán acceder a la zona mixta. Jugadores y entrenadores estarán obligados a pasar, pero decidirán si dan declaraciones."
+      ]
+    },
+    {
+      "tag": "entrevista_intermedio",
+      "patterns": [
+        "entrevista en el medio tiempo",
+        "Reglas para entrevistas durante el intermedio del partido",
+        "Obligaciones de los clubes en el intermedio",
+        "entrevistas en el medio tiempo"
+      ],
+      "responses": [
+        "Un jugador de cada club deberá conceder una entrevista de hasta 45 segundos durante el intermedio del partido si el canal licenciatario lo requiere. \n El canal licenciatario debe informar al Oficial de Medios y Mercadeo de la DIMAYOR el nombre del jugador a entrevistar, al menos 15 minutos antes de finalizar el primer tiempo.",
+        "El jugador deberá portar la camiseta oficial de competencia y realizar la entrevista frente al Backing oficial de la DIMAYOR."
+      ]
+    },
+{
+      "tag": "entrevista_super_flash",
+      "patterns": [
+        "entrevista súper flash",
+        "Reglas para la entrevista súper flash",
+        "Entrevista rápida después del partido",
+        "Normas sobre las entrevistas flash post partido"
+      ],
+      "responses": [
+        "La entrevista 'súper flash' es un espacio que puede requerirse al final del partido, donde un jugador de cada club debe conceder una entrevista de máximo 120 segundos. \n El jugador entrevistado debe portar la camiseta oficial de competencia, y la entrevista será coordinada por el Oficial de Medios y Mercadeo de la DIMAYOR, junto al jefe de prensa del club y la producción licenciataria."
+      ]
+    },
+    {
+      "tag": "conferencia_final",
+      "patterns": [
+        "conferencia en la final de la Liga BetPlay",
+        "Normas para la conferencia post partido en la final",
+        "Conferencia de prensa en los partidos de la final",
+        "Reglas sobre la conferencia de prensa de la final"
+      ],
+      "responses": [
+        "En el partido de vuelta de la Final de la Liga BetPlay II 2024, ambos directores técnicos y un jugador de cada club deben asistir a la conferencia de prensa.\n El club vencido tendrá 15 minutos después de la premiación para ingresar al recinto y dispondrá de 20 minutos para responder preguntas aleatorias de los periodistas. Después, ingresará el club ganador con el mismo tiempo disponible. \n Si un director técnico o jugador está expulsado, deben enviar un reemplazo acreditado. Solo se permite excusarse por fuerza mayor o caso fortuito."
+      ]
+    },
+    {
+      "tag": "protocolo_medios",
+      "patterns": [
+        "protocolo de medios de la DIMAYOR?",
+        "Normas del protocolo de medios",
+        "¿Cómo funciona el protocolo de medios en la Liga BetPlay?",
+        "Protocolo de medios para los partidos de la DIMAYOR"
+      ],
+      "responses": [
+        "El Protocolo de Medios de la DIMAYOR regula la actividad de los medios de comunicación y periodistas dentro de las competencias del FPC. \n Este protocolo puede modificarse cuando sea necesario y se notificará a los clubes. Es de estricto cumplimiento y forma parte integral del Reglamento."
+      ]
+    },
+    {
+      "tag": "vigencia_reglamento",
+      "patterns": [
+        "vigencia el reglamento",
+        "Fecha de inicio del reglamento DIMAYOR",
+        "¿Desde cuándo aplica este reglamento?",
+        "Vigencia del reglamento de la Liga BetPlay"
+      ],
+      "responses": [
+        "El reglamento rige desde la fecha de su expedición (18 de enero de 2024) y es de estricto cumplimiento. \n Cualquier modificación al reglamento será informada oportunamente a los clubes y publicada en los medios oficiales de la DIMAYOR."
+      ]
+    }
+    ]
+}
